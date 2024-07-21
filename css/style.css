@@ -84,7 +84,7 @@ nav>h3 {
 }
 
 .bar-icon {
-    /* display: none; */
+    display: none;
 }
 
 .nav-lists {
@@ -109,7 +109,6 @@ nav>h3 {
 
 .nav-lists li a:hover {
     border-radius: 46px;
-
     background: rgb(230, 83, 60);
 }
 
@@ -141,7 +140,6 @@ nav>h3 {
     border: 1px solid rgb(255, 255, 255);
     background: transparent;
     margin-left: 16px;
-
 }
 
 .banner-img {
@@ -194,7 +192,6 @@ nav>h3 {
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 1px;
-
 }
 
 .red-ball {
@@ -206,8 +203,6 @@ nav>h3 {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .habit {
     margin-top: 100px;
@@ -269,6 +264,7 @@ nav>h3 {
     width: 100%;
 }
 
+/* Exercise Section */
 .exercise img {
     width: 100%;
     height: 200px;
@@ -280,7 +276,6 @@ nav>h3 {
 }
 
 .exercise {
-
     margin-top: 60px;
 }
 
@@ -328,6 +323,8 @@ nav>h3 {
     background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url("../images/exercise6.jpg") no-repeat center center/cover;
     grid-column: span 4;
 }
+
+/* BMI Heading */
 
 .bmi-heading {
     margin-top: 70px;
@@ -419,6 +416,8 @@ select {
     font-size: 1rem;
     line-height: 22px;
 }
+
+/* Team Section */
 
 .team {
     margin-bottom: 90px;
@@ -538,7 +537,6 @@ hr {
     border-color: rgba(255, 255, 255, 0.5);
     width: 90%;
     margin: 30px auto;
-
 }
 
 .footer-bottom {
@@ -603,19 +601,15 @@ hr {
         font-size: 30px;
     }
 
-
     .top {
         top: 25%;
         right: 0;
     }
 
     .left {
-
         left: 0;
         bottom: 5%;
     }
-
-
 
     .section-title {
         font-size: 2.2rem;
@@ -626,7 +620,6 @@ hr {
         margin-top: 30px;
         margin-bottom: 60px;
         padding: 0 30px;
-
     }
 
     .habit-cards {
@@ -665,6 +658,125 @@ hr {
         margin-top: 20px;
     }
 
+    /* Exercise Section */
+    .training {
+        margin-top: 50px;
+        padding: 0 30px;
+    }
+
+    .exercise {
+        margin-top: 30px;
+    }
+
+    .exercise {
+
+        margin-top: 30px;
+    }
+
+    .col-1 p,
+    .col-2 p {
+        padding: 10px;
+    }
+
+    .col-1,
+    .col-2 {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .ex-img3 {
+        display: none;
+    }
+
+    .ex-img6 {
+        display: none;
+    }
+
+    /* BMI Heading */
+    .bmi-heading {
+        margin-top: 35px;
+        margin-bottom: 40px;
+        padding: 0 30px;
+    }
+
+    .bmi-calc {
+        flex-direction: column;
+        gap: 25px;
+        margin: 0 30px;
+        margin-bottom: 45px;
+        padding: 20px;
+    }
+
+    .bmi-calc h3 {
+        font-size: 1.25rem;
+    }
+
+    .bmi-chart,
+    .bmi-input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    table {
+        margin-top: 30px;
+    }
+
+    .bmi-form {
+        margin-top: 30px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    /* Team Section */
+    .team {
+        margin: 0 30px;
+        margin-bottom: 45px;
+    }
+
+    .team-members {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+    }
+
+    /* Footer Section */
+    footer {
+        background: #222222;
+        padding: 30px 50px;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .footer-logo {
+        grid-column: span 2;
+    }
+
+    .footer-logo h2 {
+        font-size: 2.5rem;
+    }
+
+    .footer-links {
+        grid-column: span 2;
+    }
+
+    .footer-links h3 {
+        font-size: 1.25rem;
+    }
+
+    .footer-links ul li {
+        margin-top: 20px;
+    }
+
+    .footer-links ul li a {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (min-width:576px)and (max-width: 992px) {
@@ -699,7 +811,6 @@ hr {
 
     }
 
-
     .banner-btns {
         display: flex;
         justify-content: center;
@@ -720,7 +831,6 @@ hr {
     }
 
     .left {
-
         left: -20%;
         bottom: 5%;
     }
@@ -728,11 +838,12 @@ hr {
     .section-title {
         font-size: 2rem;
     }
-    /* Habit Section */
 
+    /* Habit Section */
     .habit {
         margin-top: 50px;
         margin-bottom: 80px;
+        padding: 0 60px;
     }
 
     .habit-cards {
@@ -760,6 +871,157 @@ hr {
         margin-top: 20px;
     }
 
+    /* Exercise Section */
+    .training {
+        margin-top: 50px;
+        padding: 0 60px;
+    }
 
+    .exercise {
+        margin-top: 30px;
+    }
+
+    .exercise {
+        margin-top: 40px;
+    }
+
+    .col-1 p,
+    .col-2 p {
+        padding: 15px;
+    }
+
+    /* BMI Heading */
+    .bmi-heading {
+        margin-top: 50px;
+        margin-bottom: 65px;
+        padding: 0 60px;
+    }
+
+    .bmi-calc {
+        flex-direction: column;
+        gap: 35px;
+        margin: 0 60px;
+        margin-bottom: 70px;
+    }
+
+    .bmi-calc h3 {
+        font-size: 1.5rem;
+    }
+
+    .bmi-chart,
+    .bmi-input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    table {
+        margin-top: 40px;
+    }
+
+    .bmi-form {
+        margin-top: 40px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .team {
+        margin: 0 60px;
+        margin-bottom: 60px;
+    }
+
+    .team-members {
+        margin-top: 45px;
+    }
+
+    /* Footer Section */
+    footer {
+        background: #222222;
+        padding: 40px 80px;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .footer-logo {
+        grid-column: span 2;
+    }
+
+    .footer-logo h2 {
+        font-size: 3rem;
+    }
+
+    .footer-links {
+        grid-column: span 1;
+    }
+
+    .footer-links h3 {
+        font-size: 1.5rem;
+    }
+
+    .footer-links ul li {
+        margin-top: 20px;
+    }
+
+    .footer-links ul li a {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    header {
+        padding: 0 60px;
+    }
+
+    .bar-icon {
+        display: none;
+    }
+
+    /* Habit Section */
+    .habit {
+        padding: 0 60px;
+    }
+
+    /* Extra Mile Section  */
+    .extra-mile {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    /* Exercise Section */
+    .training {
+        padding: 0 60px;
+    }
+
+    /* BMI Heading */
+    .bmi-heading {
+        padding: 0 60px;
+    }
+
+    .bmi-calc {
+        gap: 50px;
+        margin: 0 60px;
+        margin-bottom: 70px;
+    }
+
+    .bmi-calc h3 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .team {
+        margin: 0 60px;
+        margin-bottom: 90px;
+    }
 
 }
